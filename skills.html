@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal_Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    .info {
+
+        background: #333;
+        text-transform: uppercase;
+        list-style-type: none;
+    }
+
+    h1 {
+
+        text-align: center;
+
+    }
+
+    .content {
+
+        color: #fdd20eff;
+    }
+
+    .skill {
+        font-family: sans-serif;
+        width: 50rem;
+        margin: 6rem auto;
+        color: #fff;
+        padding: 2rem;
+        box-shadow: 0 1.4rem 2.8rem rgba(0, 0, 0, 0.25), 0 1rem 1rem rgba(0, 0, 0, 0.22);
+    }
+
+    .skill li {
+        margin: .4rem 0;
+        padding: 1rem;
+    }
+
+    .bar {
+        background: #353b48;
+        display: block;
+        height: 2rem;
+        border: .1rem solid rgba(0, 0, 0, 0.3);
+        border-radius: 1rem;
+        box-shadow: 0 .1rem .3rem rgba(0, 0, 0, 0.12), 0 .1rem .2rem rgba(0, 0, 0, 0.24);
+        transition: 0.3s;
+    }
+
+    .bar:hover {
+        box-shadow: 0 1.4rem 2.8rem rgba(0, 0, 0, 0.25), 0 1rem 1rem rgba(0, 0, 0, 0.22);
+    }
+
+    .bar span {
+        height: 2rem;
+        float: left;
+        background: linear-gradient(135deg, rgba(236, 0, 140, 1)0%, rgba(252, 103, 103, 1)100%);
+    }
+
+    .html {
+        width: 90%;
+        animation: html 3s;
+    }
+
+    .css {
+        width: 70%;
+        animation: css 3s;
+    }
+
+    .javascript {
+        width: 60%;
+        animation: javascript 3s;
+    }
+
+    .react {
+        width: 50%;
+        animation: react 3s;
+    }
+
+    .content {
+        width: 60%;
+        animation: content 3s;
+    }
+
+    .backend {
+        width: 40%;
+        animation: backend 3s;
+    }
+
+    @keyframes html {
+        0% {
+            width: 0%;
+        }
+
+        100% {
+            width: 90%;
+        }
+    }
+
+    @keyframes css{
+        0% {
+            width: 0%;
+        }
+
+        100% {
+            width: 70%;
+        }
+    }
+    @keyframes javascript{
+        0% {
+            width: 0%;
+        }
+
+        100% {
+            width: 60%;
+        }
+    }
+    @keyframes react {
+        0% {
+            width: 0%;
+        }
+
+        100% {
+            width:50%;
+        }
+    }
+    @keyframes content{
+        0% {
+            width: 0%;
+        }
+
+        100% {
+            width: 60%;
+        }
+    }
+
+    @keyframes backend {
+        0% {
+            width: 0%;
+        }
+
+        100% {
+            width: 40%;
+        }
+    }
+
+
+</style>
+
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <nav>
+                <ul>
+                    <li class="li"><a href="Index.html">Home</a></li>
+                    <li class="li"><a href="intro.html">About me</a></li>
+                    <li class="li"><a href="skills.html">Skills</a></li>
+                    <li class="li"><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="main">
+            <div class="info">
+                <div class="skill">
+                    <h1>My Skills</h1>
+                    <li>
+                        <h3>HTML</h3>
+                        <span class="bar"><span class="html"></span></span>
+                    </li>
+                    <li>
+                        <h3>CSS</h3>
+                        <span class="bar"><span class="css"></span></span>
+                    </li>
+
+                    <li>
+                        <h3>JAVASCRIPT</h3>
+                        <span class="bar"><span class="javascript"></span></span>
+                    </li>
+
+                    <li>
+                        <h3>REACT</h3>
+                        <span class="bar"><span class="react"></span></span>
+                    </li>
+                    <li>
+                        <h3>Content Writing</h3>
+                        <span class="bar"><span class="content"></span></span>
+                    </li>
+
+                    <li>
+                        <h3>Back-end</h3>
+                        <span class="bar"><span class="backend"></span></span>
+                    </li>
+
+
+
+
+
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="Index.js"></script>
+</body>
+
+</html>

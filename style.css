@@ -1,0 +1,125 @@
+html{
+font-size: 62.5%;
+
+}
+
+
+*{
+scroll-behavior: smooth;
+ margin: 0%;
+ padding: 0%;
+overflow: hidden;
+
+}
+
+.container{
+   
+display: flex;
+}
+.main{
+
+    width: 122.4rem;
+    background: #adefd1ff;
+}
+         .info {
+        margin: 8rem;
+        height: 84rem;
+    background-color:pink;
+    border-radius: 1rem;
+ box-shadow: 0rem 0rem .5rem 0rem;
+}
+img{
+    
+    margin-left: 56.8rem;
+    margin-top: -7.8rem;
+    height: 62rem;
+    width: 45rem;
+    max-height: 100%;
+max-width:100%;
+}
+.desc{
+display: flex;
+position: absolute;
+    bottom: 19rem;
+    right: 42.4rem;
+flex-direction: column;
+
+}
+.hello{
+    color: lightseagreen;
+    font-size: 3.6rem;
+    padding-bottom: 1.5rem; 
+font-family: sans-serif;
+}
+.name{
+color:#262a76;
+font-size: 4.5rem;
+padding-bottom: 1.2rem;
+font-family: fantasy;
+}
+.about{
+    color: chocolate;
+    font-size: 2.1rem;
+padding-bottom: 2rem;
+font-family: sans-serif;
+
+}
+button{
+background-color:blue;
+width: 12.5rem;
+height: 6rem;
+color:  #adefd1ff;
+border-radius: 3rem;
+font-family: sans-serif;
+font-weight: 700;
+}
+
+    
+.btn:hover{
+background-color:lightblue;
+color: palevioletred;
+font-size: 1.6rem;
+
+}
+.moreabout{
+    font-family: sans-serif;
+   padding-bottom: 1rem;
+    color: darkred;
+    font-size: 1.7rem;
+
+
+}
+
+.sidebar{
+ width: 21.6rem;
+height: 100rem;
+background-color: #00203fff;
+}
+
+.li{
+color: wheat;
+padding: 3.3rem 2rem;
+font-family: sans-serif;
+cursor: pointer;
+padding-left: 2rem;
+font-size: 2.5rem;
+}
+.li:hover{
+background-color:black;
+font-size: 3rem;
+transition: 0.5s;
+}
+a{
+text-decoration: none;
+color:white;
+}
+a:hover{
+    
+    color:navy ;
+}
+@media (min-width: 375px) and (max-width:450px){
+    html{
+
+        font-size: 10rem;
+    }
+}
